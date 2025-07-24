@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,7 +19,6 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-29643011-3', 'auto');
       ga('send', 'pageview');
     </script>
@@ -35,7 +35,7 @@
     <!-- For all browsers -->
     <link rel="stylesheet" href="assets/css/academicons.min.css"/>
     <link rel="stylesheet" href="assets/css/academicons.css"/>
-
+    
     <style>
       button.accordion {
       font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -102,14 +102,38 @@
     <p><b>Contact:</b><br>Department of Economics<br>Texas A&M University<br>2935 Research Parkway<br>College Station, TX 77843</p>
     <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </header>
-      <section>
-      <img src="replace_me.png" height="250" width="250" alt="Neil Duzett"></h3>
-  <p>I am a 5th-year economics PhD candidate at <a href="https://artsci.tamu.edu/economics/index.html">Texas A&M University. I received a BS in Economics and Mathematics from Brigham Young University in 2020, and worked as a pre-doc researcher in BYU's Record Linking Lab from 2020-2021. </a></p>
 
-  <p>My research focuses on public economics and political economy, using quasiexperimental and machine-learning methods in the local government setting to learn about group behavior and decision-making. </p>
+      <section>
+
+    <!-- No R&Rs or WPs at the moment
+    <h2><a id="recent-RRs-updated" class="anchor" href="#RRpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Papers under Revision to Resubmit</h2>
+    <p style="margin:0"> Coming soon. <br> <br> 
+
+    <hr>
+    -->
+
+    <h2><a id="recent-papers-updated" class="anchor" href="#workingpapers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Job Market Paper</h2>
+    <p style="margin:0"> <a style="margin:0; font-size:100%; font-weight:bold" href="https://nduzett.github.io/research/ccd_draft_nber.pdf">Does Diversity Improve Group Performance? Evidence from U.S. City Councils</a> <br> (updated March 20, 2025) <br><button class="accordion">
+      Abstract
+    </button>
+    <div class="panel" style="background-color: #F1F1F1; color: #666; padding: 10px;"><p> Using a regression discontinuity design that exploits close elections between different-race candidates, I estimate the causal effect of increasing racial diversity on city council performance, measured by future vote shares. Consistent with theories on diversity in groups of varying sizes, I find that diversity improves performance in large councils, increasing next election vote shares by 5.9%. However, increased diversity has no effect or decreases performance in small councils. I investigate key communication mechanisms through natural language processing on city council meeting transcripts. I find that increased racial diversity causes large shifts in discussion topics, moving discussion toward commentary from the public and city officials and zoning legislation. However, diversity also increases negative sentiment overall within these meetings by 35% from baseline. Heterogeneity by council size suggests differences in these crucial communication mechanisms may drive the differences in performance gains. These results highlight the role of communication in mediating diversity’s effects, showing that diversity enhances performance when groups are large enough to mitigate frictions.  </p></div>
+    
+    <hr>                    
+
 
       </section>
     </div>
     <script src="javascripts/scale.fix.js"></script>
+    <script> 
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            this.parentNode.nextElementSibling.classList.toggle("show");
+      }
+    }
+    </script>
   </body>
 </html>
